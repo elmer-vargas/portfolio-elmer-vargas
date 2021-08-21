@@ -1,0 +1,170 @@
+/*========DISEÑO PARA TABLETA========*/
+@media screen and (max-width: 1000px){
+
+    /*--- ESTILOS GENERALES---*/
+
+    /*Cuerpo del Sitio*/
+    body{font-size: 16px;}
+
+    /*Encabezado h2*/
+    h2{font-size: 35px;}   
+    h2 img{width: 35px; height: 35px;}
+
+    /*Encabezado h3*/
+    h3{font-size: 24px; margin-left: 25px; margin-bottom: -25px;}
+
+    /*Flexbox*/
+    #hero_sup, #hero_inf, #about_sup, .works_row,
+    .btn_contact, footer{flex-flow: column;}
+
+    /*Estilo para los botones celestes*/
+    .button{padding: 8px 15px;}
+
+    /*Efecto - Letra Capital en Párrafos*/
+    #hero_inf p::first-letter, #about_sup div p::first-letter{font-size: 25px;}
+
+    /*--- 1) ENCABEZADO - MENÚ ---*/
+
+    /*Logo del Encabezado*/
+    #logo_head img{width: 120px; height: 90px;}
+
+    /*Mostrar botón de menú desplegable*/
+    #btn_menu{display: block; order: 1;}
+
+    /*Diseño - Menú de Navegación*/
+    nav{
+        position: absolute; top: 120px; left: 0; 
+        height: 0; width: 100%; background: #fff; 
+        padding: 10px 0; opacity: 0; visibility: hidden; 
+        border-bottom: 2px solid #c5c5c5; transition: 200ms ease;
+    }
+    nav ul{display: block; text-align: center;}
+    nav ul li a{margin: 4px 0; display: inline-block;}
+    nav ul li a::after{height: 2px; bottom: 1px;}
+
+    /*Clase que logra desplegar el menú*/
+    .show_menu{height: 140px; opacity: 1; visibility: visible;} 
+    
+    /*--- 2) PORTAFOLIO ---*/
+    main{width: 100%; margin: 160px auto;}
+
+    /*Establecer alturas al 100% y espaciados de los bloques*/
+    #hero_sup, #hero_inf{height: 100%; margin: 30px 0;}
+
+    /*Centrar títulos y textos*/
+    #hero_sup h1, #hero_sup span{text-align: center;}
+
+    /*Definir ancho para los párrafos y ciertos contenedores*/
+    #hero_inf p, #about_sup div, 
+    .slideshow-container, #contact p{width: 85%;}
+
+    /*2.1) SECCIÓN: PORTADA - "HERO"*/
+    #hero_sup h1{font-size: 45px;}
+    #hero_sup span{font-size: 28px; display: block;}
+    #hero_sup img{width: 325px; height: 225px; margin-top: 20px;}
+    #hero_inf p{margin-bottom: 15px; text-align: center;}
+
+    /*Flecha de anclaje a la sección "Sobre Mí"*/
+    #go_down img{width: 40px; height: 40px;}
+
+    /*2.2) SECCIÓN: "SOBRE MÍ"*/
+    #about_sup{margin-bottom: 20px;}
+    #about_sup div p{text-align: center;}
+    #about_sup img{width: 230px; margin: 15px 0;}
+    .card_about img{width: 55px; height: 55px;}
+
+    /*2.3) SECCIÓN: "HABILIDADES"*/
+
+    /*DISEÑO - CARRUSEL DE IMÁGENES*/
+
+    /*Texto Inferior*/
+    .text{font-size: 16px; padding: 8px;}
+
+    /*2.4) SECCIÓN: "PROYECTOS"*/
+    #works{margin-bottom: 25px;}
+    
+    /*Diseño para las filas que acomodan las tarjetas con los proyectos*/
+    .works_row{align-items: center; margin: 0;}
+
+    /*Diseño para las 9 tarjetas con los proyectos*/
+    .work_card{margin: 20px 0; width: 50%; height: 300px;}
+    .work_description p{font-size: 18px;}
+    .works_links a{font-size: 16px;}
+
+    /*2.5) SECCIÓN: "CONTACTO"*/
+    #contact p, .btn_contact{margin: 25px auto;}
+
+    /*Botones de Contacto*/
+    .btn_contact a{margin: 5px 0;}
+
+    /*Frase Final del Portafolio*/
+    .contact_end{font-size: 20px;}
+
+    /*--- 3) PIE DE PÁGINA---*/
+    footer{height: 150px; margin-top: -125px;}
+
+    /*Espaciado entre los elementos del pie*/
+    #logo_foot, footer p{margin: 10px 0;}
+
+} /*Fin @media screen and (max-width: 950px)*/
+
+/*========DISEÑO PARA MÓVIL========*/
+@media screen and (max-width: 500px){
+
+    /*--- ESTILOS GENERALES---*/
+
+    /*Cuerpo del Sitio*/
+    body{font-size: 15px;}
+
+    /*Encabezado h2*/
+    h2{font-size: 30px;}   
+    h2 img{width: 30px; height: 30px;}
+
+    /*Encabezado h3*/
+    h3{font-size: 22px; margin-left: 15px; margin-bottom: -35px;}
+
+    /*--- 1) ENCABEZADO - MENÚ ---*/
+
+    /*Banderas español - inglés para traducción del contenido*/
+    .flag img{width: 45px; height: 45px; margin-bottom: -5px;}
+
+     /*--- 2) PORTAFOLIO ---*/
+
+     /*Establecer espaciados de los bloques*/
+    #hero_sup, #hero_inf{margin: 20px 0;}
+
+    /*Definir ancho para los párrafos y ciertos contenedores*/
+    #hero_inf p, #about_sup div, 
+    .slideshow-container, #contact p{width: 90%;}
+
+    /*2.1) SECCIÓN: PORTADA - "HERO"*/
+    #hero_sup h1{font-size: 36px;}
+    #hero_sup span{font-size: 24px;}
+    #hero_sup img{width: 300px;}
+    #hero_inf p{margin-top: -10px;}
+
+    /*Flecha de anclaje a la sección "Sobre Mí"*/
+    #go_down img{margin-top: 10px;}
+
+    /*2.2) SECCIÓN: "SOBRE MÍ"*/
+    #about h2{margin-bottom: -5px;}
+    #about_sup img{width: 210px;}
+    
+    /*2.3) SECCIÓN: "HABILIDADES"*/
+    #skills{margin-top: -20px;}
+
+    /*2.4) SECCIÓN: "PROYECTOS"*/
+    
+    /*Diseño para las 9 tarjetas con los proyectos*/
+    .work_card{width: 80%; height: 250px;}
+
+    /*2.5) SECCIÓN: "CONTACTO"*/
+    #contact p, .btn_contact{margin: 20px auto;}
+ 
+    /*--- 3) PIE DE PÁGINA---*/
+    footer{height: 150px; margin-top: -125px;}
+ 
+    /*Espaciado entre los elementos del pie*/
+    #logo_foot, footer p{margin: 10px 0;}
+
+} /*Fin @media screen and (max-width: 500px)*/
