@@ -1,2 +1,3 @@
-# portfolio_elmer-vargas
-Portafolio inherente a proyectos de desarrollo - diseño web desarrollado por Elmer Vargas Salazar
+# Portafolio: Elmer Vargas
+Portafolio inherente a mis proyectos de desarrollo - diseño web creados durante todo mi proceso de aprendizaje del Desarrollo Web.
+
