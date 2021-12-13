@@ -22,7 +22,7 @@ Proyecto donde expongo sobre mi experiencia en esta rama asombrosa del Desarroll
 * Galería de 7 imágenes con desplazamiento automático, las cuales son mis habilidades técnicas.
 
 ### 1.5) Proyectos
-* Se incluyen fotografías de los 7 sitios web o pequeñas aplicaciones interactivas. Cuando el ratón se localiza sobre ellas se produce un efecto que muestra la descripción de cada proyecto, al igual que los vínculos de acceso a sus repositorios de Github y a cada sitio en línea.
+* Se incluyen fotografías de los 11 sitios web o pequeñas aplicaciones interactivas. Cuando el ratón se localiza sobre ellas se produce un efecto que muestra la descripción de cada proyecto, al igual que los vínculos de acceso a sus repositorios de Github y a cada sitio en línea.
 
 ### 1.6) Contacto
 * Se presenta un párrafo final persuasivo al público para poder contactarme.
