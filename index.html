@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!--Metas-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Elmer Vargas Salazar">
+    <meta name="description" content="Portafolio inherente a proyectos de desarrollo - diseño web elaborado por Elmer Vargas Salazar">
+    <meta name="keywords" content="elmer vargas salazar, desarrollador frontend junior, sobre mí, habilidades, proyectos, contacto">
+    <!--Open Graph -->
+    <meta property="og:title" content="Portafolio / Elmer Vargas" />
+    <meta property="og:description" content="Portafolio inherente a proyectos de desarrollo - diseño web elaborado por Elmer Vargas Salazar" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://elmervargas31.github.io/portfolio_elmer-vargas/" />
+    <meta property="og:image" content="img/portfolio.png" />
+    <!--Ícono de Pestaña-->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <!--Título de Pestaña-->
+    <title>Elmer Vargas / Desarrollador Frontend Junior</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+  <body>
+    <!--Contenedor del Portafolio-->
+    <div id="wrapper">
+
+      <!--Encabezado y Menú del Portafolio-->
+      <header>
+        <!--Logotipo - Encabezado-->
+        <a href="index.html" id="logo_head">
+          <img src="img/logo.png" alt="Logotipo de encabezado, portafolio Elmer Vargas">
+        </a>
+
+        <!--Botón Desplegable del Menú (Responsive)-->
+        <button id="btn_menu">
+          <img src="img/menu_bars.png" alt=""> Menú
+        </button>
+
+        <!--Menú de Navegación-->
+        <nav>
+          <ul>
+            <li><a href="#about" id="nav_link1">Sobre Mí</a></li>
+            <li><a href="#skills" id="nav_link2">Habilidades</a></li>
+            <li><a href="#works" id="nav_link3">Proyectos</a></li>
+            <li><a href="#contact" id="nav_link4">Contacto</a></li>
+          </ul>
+        </nav>
+
+        <!--Vínculos de las banderas (idioma español - inglés) para traducir el sitio-->
+        <div>
+          <a href="index.html" class="flag">
+            <img src="img/español.png" alt="Traducir contenido a Español">
+            Español
+          </a>
+          <a href="english.html" class="flag">
+            <img src="img/english.png" alt="Traducir contenido a Inglés">
+            English
+          </a>
+        </div>
+      </header><!--Fin Encabezado y Menú del Portafolio-->
+
+      <!--Contenido Principal - Portafolio-->
+      <main>
+
+        <!--1) SECCIÓN: PORTADA - "HERO"-->
+        <section id="hero">
+
+          <!--Bloque Superior-->
+          <div id="hero_sup">
+            <!--Nombre del Autor y Trabajo-->
+            <div>
+              <h1 tabindex="0">Elmer Vargas Salazar</h1>
+              <span tabindex="0">Desarrollador Frontend Junior</span>
+            </div>
+            <!--Fotografía del Autor-->
+            <img tabindex="0" src="img/elmer_hero.jpg" alt="Fotografía de portada de Elmer Vargas Salazar">
+          </div> <!--Fin Bloque Superior-->
+  
+          <!--Bloque Inferior-->
+          <div id="hero_inf">
+            <!--Resúmen Introductorio del Autor-->
+            <p tabindex="0">Soy técnico graduado del <a href="https://www.ina.ac.cr/SitePages/Inicio.aspx" target="_blank">Instituto Nacional de Aprendizaje - Costa Rica</a>, y me encuentro ampliamente capaz de transformar las ideas ya plasmadas en los diseños, a páginas o sitios web estéticos e interactivos mediante el desarrollo de código.</p>
+  
+            <!--Botón para observar el currículum-->
+            <a href="doc/curriculum-elmer.pdf" target="_blank" class="button">
+              <img src="img/resume.png" alt="Ícono de un currículum vitae">
+              Ver Currículum PDF
+            </a>          
+          </div> <!--Fin Bloque Inferior-->
+  
+          <!--Flecha de anclaje al bloque "Sobre Mí"-->
+          <a href="#about" id="go_down" title="Leer Más">
+            <img src="img/arrow-down.png" alt="Leer más contenido"/>
+          </a>
+
+        </section><!--FIN SECCIÓN: PORTADA - "HERO"-->
+
+        <!--2) SECCIÓN: "SOBRE MÍ"-->
+        <section id="about">
+
+          <!--Título de la Sección-->
+          <h2 tabindex="0"><img src="img/about.png" alt="Ícono de una silueta"> Sobre Mí</h2>
+
+            <!--Bloque Superior-->
+            <div id="about_sup">
+              <!--Información sobre el Autor-->
+              <div tabindex="0">
+                <p>Nunca en mi vida había conocido lo extraordinaria que es la programación o como crear una web, sin embargo en el 2019 tomé la decisión provechosa de cursar un técnico en Desarrollo Web. Desde que escribí las primeras líneas de código HTML con 19 años me sentí muy impresionado, y a partir de ahí he despertado mi pasión por esta rama mediante la práctica constante y auto-aprendizaje.</p>
+
+                <p>Hoy día me siento un ser competente, y estoy anhelante de laborar en un primer empleo desarrollando con código las ideas establecidas en mente de los requerimientos o diseños, a productos adecuadamente presentables e interactivos en la Internet.</p>
+              </div>
+
+              <!--Fotografía-->
+              <img tabindex="0" src="img/elmer_about.jpg" alt="Fotografía de perfil de Elmer Vargas Salazar">
+            </div> <!--Fin Bloque Superior-->
+
+            <!--Subtítulo: Pasatiempos-->
+            <h3 tabindex="0">Algunos pasatiempos:</h3>
+            
+            <!--Bloque Inferior-->
+            <div id="about_inf">
+              <!--Pasatiempo #1-->
+              <div tabindex="0" class="card_about">
+                <img src="img/piano.png" alt="Ícono de un piano">
+                <p>Tocar piano</p>
+              </div>
+
+              <!--Pasatiempo #2-->
+              <div tabindex="0" class="card_about">
+                <img src="img/walking.png" alt="Ícono de una persona caminando">
+                <p>Salir a caminar</p>
+              </div>
+
+              <!--Pasatiempo #3-->
+              <div tabindex="0" class="card_about">
+                <img src="img/books.png" alt="Ícono de varios libros">
+                <p>Leer libros</p>
+              </div>
+
+              <!--Pasatiempo #4-->
+              <div tabindex="0" class="card_about">
+                <img src="img/eat.png" alt="Ícono de unos cubiertos">
+                <p>Comer</p>
+              </div>
+            </div> <!--Fin Bloque Inferior-->
+
+        </section><!--FIN SECCIÓN: "SOBRE MÍ"-->
+
+        <!--3) SECCIÓN: "HABILIDADES"-->
+        <section id="skills">
+
+          <!--Título de la Sección-->
+          <h2 tabindex="0"><img src="img/skills.png" alt="Ícono de un caracter HTML"> Mis Habilidades</h2>
+
+          <!--Carrusel de Imágenes-->
+          <div tabindex="0" class="slideshow-container">
+
+            <div class="mySlides fade">
+              <img src="img/html.jpg" style="width:100%" alt="Logotipo de HTML">
+              <div class="text">1) HTML5</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="img/css.png" style="width:100%; opacity: .8;" alt="Logotipo de CSS">
+              <div class="text">2) CSS3</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/bootstrap.png" style="width:100%" alt="Logotipo de Bootstrap">
+              <div class="text">3) Bootstrap</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/sass.png" style="width:100%" alt="Logotipo de Sass">
+              <div class="text">4) Sass</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/js.jpg" style="width:100%" alt="Logotipo de JavaScript">
+              <div class="text">5) JavaScript</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/jquery.png" style="width:100%" alt="Logotipo de JQuery">
+              <div class="text">6) JQuery</div>
+            </div>
+
+            <div class="mySlides fade">
+              <img src="img/vs_code.png" style="width:100%" alt="Logotipo de Visual Studio Code">
+              <div class="text">7) Visual Studio Code</div>
+            </div>
+
+          </div> <!--Fin del Carrusel de Imágenes-->
+          <br>
+            
+          <div class="dot_cont" style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+        </section><!--FIN SECCIÓN: "HABILIDADES"-->
+
+        <!--4) SECCIÓN: "PROYECTOS"-->
+        <section id="works">
+
+          <!--Título de la Sección-->
+          <h2 tabindex="0"><img src="img/works.png" alt="Ícono de un sitio web"> Mis Proyectos</h2>
+
+          <!--Fila #1 con 3 tarjetas de proyectos-->
+          <div class="works_row">
+
+            <!--Proyecto #1-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_copia-google.png" alt="Fotografía del proyecto: Diseño de Google">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Duplicación del sitio correspondiente al buscador más popular del mundo: "Google"</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/google-copia" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/google-copia/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #1-->    
+
+            <!--Proyecto #2-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_ctp-dos-cercas.png" alt="Fotografía del proyecto: CTP Dos Cercas">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Sitio web sobre el Colegio Técnico Profesional Dos Cercas, el cual fuí estudiante de secundaria</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/ctp-dos-cercas" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/ctp-dos-cercas/index.html" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #2-->
+
+            <!--Proyecto #3-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_elmers-blog.png" alt="Fotografía del proyecto: Elmer's Blog">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Un mini-blog moderno, donde expongo mi experiencia como estudiante en el INA - Costa Rica</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/elmers-blog" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/elmers-blog/index.html" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #3-->
+
+          </div><!--Fin Fila #1 con 3 tarjetas de proyectos-->
+
+          <!--Fila #2 con 3 tarjetas de proyectos-->
+          <div class="works_row">
+
+            <!--Proyecto #4-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_ford.png" alt="Fotografía del proyecto: Diseño de Ford">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Pequeño diseño web sobre la reconocida empresa automovilística: FORD</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/ford" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/ford/index.html" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #4-->
+
+            <!--Proyecto #5-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_juego-gato.png" alt="Fotografía del proyecto: Juego de Gato">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Aplicación web interactiva del tablero de gato, para el entretenimiento del usuario</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/juego-de-gato" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/juego-de-gato/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #5-->
+
+            <!--Proyecto #6-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_lista-tareas.png" alt="Fotografía del proyecto: Lista de Tareas">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Aplicación web interactiva donde el usuario digita, añade, coteja y elimina diversas tareas</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/lista-de-tareas" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/lista-de-tareas/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #6-->
+
+          </div><!--Fin Fila #2 con 3 tarjetas de proyectos-->
+
+          <!--Fila #3 con 3 tarjetas de proyectos-->
+          <div class="works_row">
+
+            <!--Proyecto #7-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_reproductor-mp3.png" alt="Fotografía del proyecto: Reproductor MP3">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Reproductor mp3 que incluye 5 canciones y temática alusiva a la música electrónica</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/reproductor-mp3" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/reproductor-mp3/index.html" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #7-->
+
+            <!--Proyecto #8-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_socialbook.png" alt="Fotografía del proyecto: Socialbook">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Pequeño sitio web, el cual es muy similar a la popular red social (Facebook)</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/social-book" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/social-book/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #8-->
+
+            <!--Proyecto #9-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_calculadora.png" alt="Fotografía del proyecto: Calculadora">
+
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Aplicación web interactiva sobre una calculadora capaz de efectuar operaciones matemáticas</p>
+
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/calculadora" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/calculadora/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #9-->
+
+          </div><!--Fin Fila #3 con 3 tarjetas de proyectos-->
+
+        <!--Fila #4 con 2 tarjetas de proyectos-->
+        <div class="works_row" id="justify-center">
+
+            <!--Proyecto #10-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_piano-virtual.png" alt="Fotografía del proyecto: Piano Virtual">
+    
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Sitio web con información sobre el piano, y se representa el mismo instrumento con notas musicales sonoras en tiempo real</p>
+    
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/piano-virtual" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/piano-virtual/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #10-->
+
+            <!--Proyecto #11-->
+            <div tabindex="0" class="work_card">
+              <!--Captura de pantalla del proyecto-->
+              <img src="img/proyecto_armonica.png" alt="Fotografía del proyecto: Rincón de la Armónica">
+    
+              <!-- Descripción del proyecto -->
+              <div class="work_description">
+                <p>Sitio web con información y multimedia sobre la armónica. Incluye un panel con botones para generar comportamientos de accesibilidad (en escritorio)</p>
+    
+                <!--Vínculos a Github y al sitio real del proyecto-->
+                <div class="works_links">
+                  <a href="https://github.com/ElmerVargas31/rincon-armonica" target="_blank">
+                    <img src="img/github.png" alt="">
+                    Github
+                  </a>
+                  <a href="https://elmervargas31.github.io/rincon-armonica/" target="_blank">
+                    <img src="img/monitor.png" alt="">
+                    Ver Sitio
+                  </a>
+                </div>
+              </div>
+            </div><!--Fin Proyecto #11-->
+
+          </div><!--Fin Fila #4 con 2 tarjetas de proyectos-->
+
+        </section><!--FIN SECCIÓN: "PROYECTOS"-->
+
+        <!--5) SECCIÓN: "CONTACTO"-->
+        <section id="contact">
+          
+          <!--Título de la Sección-->
+          <h2 tabindex="0"><img src="img/contact.png" alt="Ícono de una agenda"> Contacto</h2>
+
+          <!--Párrafo de Conclusión-->
+          <p tabindex="0">Para finalizar, si estás interesado en contactarme para poder participar en el equipo de trabajo web colaborando con el diseño de un proyecto, podrás realizarlo directamente desde cualquiera de los siguientes medios presentes a continuación:</p>
+
+          <!--Botones de Contacto al Usuario-->
+          <div class="btn_contact">
+
+            <!--Botón para contactar por email-->
+            <a href="mailto:elmervarsal@gmail.com" target="_blank" class="button">
+              <img src="img/email.png" alt="Ícono de correo electrónico">
+              elmervarsal@gmail.com
+            </a>     
+
+            <!--Botón para contactar por teléfono-->
+            <a href="https://wa.me/50686948698" target="_blank" class="button">
+              <img src="img/phone.png" alt="Ícono de un teléfono">
+              +506 8694 8698
+            </a>  
+
+            <!--Botón para contactar por linkedIn-->
+            <a href="https://www.linkedin.com/in/elmer-vargas-salazar/" target="_blank" class="button">
+              <img src="img/linkedin.png" alt="Ícono de LinkedIn">
+              LinkedIn
+            </a>  
+            
+          </div> 
+          
+          <!--Frase Final-->
+          <p tabindex="0" class="contact_end">¡Estoy abierto a la comunicación, será un gran placer servir!</p>
+
+        </section><!--FIN SECCIÓN: "CONTACTO"-->
+
+      </main><!--Fin Contenido Principal - Portafolio-->
+
+      <!--Pie de Página - Portafolio-->
+      <footer>
+        <!--Logotipo - Pie de Página-->
+        <a href="index.html" id="logo_foot">
+          <img src="img/logo.png" alt="Logotipo de pie de página, portafolio Elmer Vargas">
+        </a>
+
+        <!--Información de Derechos Reservados-->
+        <p tabindex="0">©Derechos Reservados - 2021 - <span>Elmer Vargas Salazar</span></p>
+      </footer><!--Fin Pie de Página - Portafolio-->
+
+    </div><!--Fin del Contenedor del Portafolio-->
+
+    <!--JavaScript-->
+    <script src="js/main.js"></script>
+  </body>
+</html>
