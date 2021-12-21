@@ -300,8 +300,8 @@ footer span{color: #52CAF2;}
 
 /*--- 4) EFECTO PARALLAX (JS) A LOS BLOQUES DEL PORTAFOLIO---*/
 
-/*Ocultar la portada del portafolio, y se muestra al cargar el sitio*/
-#hero{opacity: 0; transition: 1s ease;}
+/*Ocultar encabezado y portada del portafolio, se muestran al cargar el sitio*/
+header, #hero{opacity: 0; transition: 1s ease;}
 
 /*Ocultar en primera entrada los bloques del portafolio*/
 #about, #skills, #works, #contact{transition: 200ms; opacity: 0;}
