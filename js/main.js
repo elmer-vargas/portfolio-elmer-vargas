@@ -35,10 +35,12 @@ function showSlides() {
   setTimeout(showSlides, 3500); //Cambiar la imagen cada 3 segundos y medio
 }
 
-/*====3) RECARGAR LA PORTADA DEL PORTAFOLIO CON UNA TRANSICIÓN====*/
+/*====3) RECARGAR EL ENCABEZADO Y PORTADA DEL PORTAFOLIO CON UNA TRANSICIÓN====*/
+let header = document.querySelector("header");
 let hero = document.getElementById("hero");
 
 window.onload = () => {
+  header.style.opacity = "1";
   hero.style.opacity = "1";
 }
 
@@ -59,7 +61,7 @@ let navLink4 = document.getElementById("nav_link4");
 //Función para el portafolio cuando se ejecuta el scroll
 document.onscroll = () => {
   
-  if(scrollY > 300){
+  if(scrollY > 300 && scrollY > 500){
     about.style.opacity = "1"; 
     navLink1.classList.add("focus"); 
   }else{
@@ -67,7 +69,7 @@ document.onscroll = () => {
     navLink1.classList.remove("focus"); 
   }
   
-  if(scrollY > 900 && scrollY > 1100){
+  if(scrollY > 900 && scrollY > 1200){
     skills.style.opacity = "1"; 
     navLink1.classList.remove("focus");
     navLink2.classList.add("focus");
@@ -76,7 +78,7 @@ document.onscroll = () => {
     navLink2.classList.remove("focus");
   }
   
-  if(scrollY > 1200 && scrollY > 1600){
+  if(scrollY > 1200 && scrollY > 1700){
     works.style.opacity = "1"; 
     navLink2.classList.remove("focus");
     navLink3.classList.add("focus");
@@ -85,7 +87,7 @@ document.onscroll = () => {
     navLink3.classList.remove("focus");
   }
 
-  if(scrollY > 2600){
+  if(scrollY > 2650){
     contact.style.opacity = "1"; 
     navLink3.classList.remove("focus");
     navLink4.classList.add("focus");
