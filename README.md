@@ -26,7 +26,7 @@ Proyecto donde expongo sobre mi experiencia en esta rama asombrosa del Desarroll
 
 ### 1.6) Contacto
 * Se presenta un párrafo final persuasivo al público para poder contactarme.
-* 3 botones para comunicarse vía Correo, WhatsApp y LinkedIn.
+* 3 botones para comunicarse vía Correo, Teléfono y LinkedIn.
 * Una frase de despedida.
 
 ### 1.7) Pie de Página
